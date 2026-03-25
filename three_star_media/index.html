@@ -8,8 +8,10 @@
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <!-- custom css -->
-         <link rel="stylesheet" href="./css/main.css">
+        <!-- bootstraap icons -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -30,21 +32,21 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Team</a>
+                            <a class="nav-link" href="#team">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control rounded-0" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-primary rounded-0" type="submit">Search</button>
+                        <button class="btn btn-outline-primary rounded-0" type="submit"><i class="bi bi-search"></i></button>
                     </form>
                 </div>
             </div>
@@ -53,14 +55,202 @@
 
     <main>
         <!-- home section -->
-         <section id="home" class="banner py-4">
-            <div class="container-xl bg-black text-light">
-                <h1 class="display-1">Welcome to Three Star Media</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas sint unde eveniet vero rerum dignissimos ipsa quaerat, iusto tenetur ipsam et. Ratione, voluptas maiores quasi inventore nulla quos. Voluptate, accusantium?</p>
-                <a href="">Connect with us</a>
+        <section id="home" class="banner py-4">
+            <div class="container-xl bg-black text-light bg-opacity-75">
+                <h1 class="display-1 fw-bold pt-4">Welcome to Three Star Media</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas sint unde eveniet vero rerum
+                    dignissimos ipsa quaerat, iusto tenetur ipsam et. Ratione, voluptas maiores quasi inventore nulla
+                    quos. Voluptate, accusantium?</p>
+                <a class="btn btn-primary rounded-0 py-3 mb-2 text-dark" href="">Connect with us <i class="bi bi-caret-right-fill"></i></a>
             </div>
-         </section>
+        </section>
+
+        <!-- About us section -->
+        <section id="about" class="bg-secondary">
+            <div class="container-xl py-2">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <img src="./images/about-us.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <h2 class="pt-2">About Us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, soluta aliquam deleniti
+                            delectus voluptates voluptas commodi non excepturi nisi sed? Eligendi deleniti excepturi
+                            odio possimus suscipit quidem laudantium! Aut, mollitia.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore praesentium aut est ad
+                            dolorem consequuntur amet, non placeat alias adipisci iusto velit sunt voluptate, rerum
+                            libero cumque inventore obcaecati atque.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services section -->
+        <section id="services" class="container-xl pt-4 pb-2">
+            <h2>Our Services</h2>
+            <div class="row g-3">
+                <div class="col-12 col-md-6">
+                    <div class="card rounded-0">
+                        <img src="./images/digital.jpg" class="card-img-top rounded-0" alt="">
+                        <div class="card-body bg-secondary">
+                            <h3 class="card-title">Digital Teransformation</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+                                tenetur quas praesentium reiciendis odio, incidunt debitis ad sit eaque sed adipisci
+                                quod! Dolore eaque sapiente impedit, culpa officia tenetur ipsum?</p>
+                            <a href="#" class="btn btn-dark rounded-0 py-3">Digital Plans <i class="bi bi-caret-right-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card rounded-0">
+                        <img src="./images/marketing.jpg" class="card-img-top rounded-0" alt="">
+                        <div class="card-body bg-secondary">
+                            <h3 class="card-title">Marketing</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+                                tenetur quas praesentium reiciendis odio, incidunt debitis ad sit eaque sed adipisci
+                                quod! Dolore eaque sapiente impedit, culpa officia tenetur ipsum?</p>
+                            <a href="#" class="btn btn-dark rounded-0 py-3">Marketing Plans <i class="bi bi-caret-right-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card rounded-0">
+                        <img src="./images/video.jpg" class="card-img-top rounded-0" alt="">
+                        <div class="card-body bg-secondary">
+                            <h3 class="card-title">Video Production</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+                                tenetur quas praesentium reiciendis odio, incidunt debitis ad sit eaque sed adipisci
+                                quod! Dolore eaque sapiente impedit, culpa officia tenetur ipsum?</p>
+                            <a href="#" class="btn btn-dark rounded-0 py-3">Video Plans <i class="bi bi-caret-right-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card rounded-0">
+                        <img src="./images/web.jpg" class="card-img-top rounded-0" alt="">
+                        <div class="card-body bg-secondary">
+                            <h3 class="card-title">Web Development</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+                                tenetur quas praesentium reiciendis odio, incidunt debitis ad sit eaque sed adipisci
+                                quod! Dolore eaque sapiente impedit, culpa officia tenetur ipsum?</p>
+                            <a href="#" class="btn btn-dark rounded-0 py-3">Web Plans <i class="bi bi-caret-right-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card rounded-0">
+                        <img src="./images/print.jpg" class="card-img-top rounded-0" alt="">
+                        <div class="card-body bg-secondary">
+                            <h3 class="card-title">Print</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+                                tenetur quas praesentium reiciendis odio, incidunt debitis ad sit eaque sed adipisci
+                                quod! Dolore eaque sapiente impedit, culpa officia tenetur ipsum?</p>
+                            <a href="#" class="btn btn-dark rounded-0 py-3">Print Plans <i class="bi bi-caret-right-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- vision section -->
+        <section class="vision">
+            <div class="container-xl text-light pt-4 pb-2">
+                <h2>Our Vision</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, temporibus. Voluptas vel quasi
+                    perspiciatis ab quo? Consequuntur rem minus, placeat sapiente, voluptate natus eveniet aspernatur
+                    doloribus deserunt deleniti, ullam perspiciatis?</p>
+                <a href="" class="btn btn-primary bg-dark py-3">Learn More <i class="bi bi-caret-right-fill"></i></a>
+            </div>
+        </section>
+
+        <!-- Our Team -->
+
+        <section id="team" class="container-xl mt-4 mb-2">
+            <h2>Our Team</h2>
+            <div class="row g-0">
+                <div class="col-12 col-md-6">
+                    <img src="./images/john.jpg" alt="" class="img-fluid w-100">
+                </div>
+                <div class="col-12 col-md-6 bg-secondary mb-2 mb-md-0 p-3">
+                    <h3>John Doe</h3>
+                    <p class="border-bottom border-3">CEO and Co-owner</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint est nam optio dolorem placeat
+                        laudantium, eligendi quia reiciendis non natus repellendus quisquam repudiandae. Nostrum,
+                        molestias error tenetur hic debitis expedita?</p>
+                </div>
+                <div class="col-12 col-md-6 order-md-last">
+                    <img src="./images/bob.jpg" alt="" class="img-fluid w-100">
+                </div>
+                <div class="col-12 col-md-6 bg-secondary p-3">
+                    <h3>Bob Rite</h3>
+                    <p class="border-bottom border-3">CFO and Co-owner</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint est nam optio dolorem placeat
+                        laudantium, eligendi quia reiciendis non natus repellendus quisquam repudiandae. Nostrum,
+                        molestias error tenetur hic debitis expedita?</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacat section -->
+
+        <section id="contact" class="container-xl mt-4 mb-2">
+            <h2>Contact Us</h2>
+            <div class="row mt-4">
+                <div class="col-12 col-md-6">
+                    <h3>Send us a message</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="userName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control rounded-0" id="userName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control rounded-0" id="exampleInputEmail1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message">Message</label>
+                            <textarea class="form-control rounded-0" name="" id="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark rounded-0 mb-3 text-primary">Send</button>
+                    </form>
+                </div>
+                <div class="col-12 order-md-last">
+                    <h3>Hours of operation</h3>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr class="text-center">
+                                <th class="bg-secondary" scope="col">Days</th>
+                                <th class="bg-secondary" scope="col">Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday - Friday</td>
+                                <td>9AM - 6PM</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday - Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h3>Location</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11215.801532381956!2d-75.76561176424686!3d45.349813839081065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1774394662565!5m2!1sen!2sca"
+                        class="w-100" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="bg-dark text-primary">
+        <div class="container-xl pt-4 pb-2">
+            <p>&copy; Copyright Three Star Media, 2020</p>
+            <p>All images are taken from <a href="">Unsplash</a></p>
+        </div>
+    </footer>
     <!-- bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
